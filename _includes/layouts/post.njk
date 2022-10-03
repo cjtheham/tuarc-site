@@ -10,6 +10,8 @@ templateClass: tmpl-post
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %}
 
+<br>
+
 {{ content | safe }}
 
 {%- if collections.posts %}
